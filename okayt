@@ -1,0 +1,72 @@
+ 
+            <ul>
+                    <a href="home.html">Home</a>
+                    <a href="menu.html">Menu</a>
+                    <a href="about.html ">About</a>
+                    <a href="contact.html">Contact</a>
+            </ul>
+        </div>
+
+        <div class="respect">
+            <h2>WELCOME TO MY KITCHEN</h2> 
+        </div>  
+        <div class="we">
+            <p>
+                We provide you with quality and well prepared food to your satifaction.
+                We make sure our customers are happy with what we serve them. 
+            </p>
+        </div> 
+    </nav>
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+nav {
+ background-color: grey;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 90vh;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+ul {
+  color: #000;
+  font-size: 1.5em;
+  text-transform: uppercase;
+}
+a {
+  text-decoration: none;
+  color: rgb(147, 161, 159);
+}
+.logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  z-index: 100;
+  left: 0;
+  padding: 0;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: 300;
+  color: powderblue;
+  font-family: "Courier New", Courier, monospace;
+}
+.respect {
+  margin-top: 100px;
+  text-align: left;
+  font-family: "Big Shoulders Text", cursive;
+  font-size: 2em;
+  text-transform: uppercase;
+  font-weight: 800;
+ color: rgb(167, 15, 15);
+}
+.we{
+  font-size: 40px;
+}
